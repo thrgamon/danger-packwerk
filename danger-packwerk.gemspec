@@ -34,6 +34,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'packwerk'
   spec.add_dependency 'parse_packwerk'
   spec.add_dependency 'sorbet-runtime'
+  spec.add_dependency 'packs'
 
   spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'pry'
